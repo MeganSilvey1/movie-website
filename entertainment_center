@@ -1,0 +1,35 @@
+import fresh_tomatoes
+import media
+
+the_great_gatsby = media.Movie("The Great Gatsby",
+                        "A 2013 romance drama film based on F. Scott Fitzgerald's 1925 novel.",
+                        "https://en.wikipedia.org/wiki/The_Great_Gatsby_(2013_film)#/media/File:TheGreatGatsby2013Poster.jpg",
+                        "https://www.youtube.com/watch?v=rARN6agiW7o")
+
+harry_potter_seven = media.Movie("Harry Potter 7- Part 2",
+                     "The finale of Harry Potter's quest to destroy Lord Voldemort",
+                     "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_2#/media/File:Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_2.jpg",
+                     "https://www.youtube.com/watch?v=mObK5XD8udk")
+
+avatar = media.Movie("Avatar",
+                     "A marine on an alien plant",
+                     "https://en.wikipedia.org/wiki/Avatar_(2009_film)#/media/File:Avatar-Teaser-Poster.jpg",
+                     "https://www.youtube.com/watch?v=d1_JBMrrYw8")
+
+oceans_thirteen = media.Movie("Ocean's Thirteen",
+                     "A group of 13 men heisting a Las Vegas casino",
+                     "https://en.wikipedia.org/wiki/Ocean%27s_Thirteen#/media/File:Oceans13Poster1.jpg",
+                     "https://www.youtube.com/watch?v=QdCFxe-ottI")
+
+deadpool_2 = media.Movie("Deadpool 2",
+                     "A superhero comedy about a superhero protecting a young mutant",
+                     "https://en.wikipedia.org/wiki/Deadpool_2#/media/File:Deadpool_2_poster.jpg",
+                     "https://www.youtube.com/watch?v=D86RtevtfrA")
+
+sound_of_music = media.Movie("The Sound of Music",
+                     "A young nun who becomes the governess of seven children",
+                     "https://en.wikipedia.org/wiki/The_Sound_of_Music_(film)#/media/File:Sound_of_music.jpg",
+                     "https://www.youtube.com/watch?v=NJRI-QK7OaU")
+
+movies = [the_great_gatsby, harry_potter_seven, avatar, oceans_thirteen, deadpool_2, sound_of_music]
+fresh_tomatoes.open_movies_page(movies)
